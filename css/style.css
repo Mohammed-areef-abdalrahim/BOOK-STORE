@@ -1,0 +1,92 @@
+
+/* 
+use this property to to change the background 
+background-image: linear-gradient(#af0433 , black);
+*/
+html,body{
+    margin:0;
+    padding:0;
+    background-image: linear-gradient( black,#af0433 );
+    
+}
+
+.header{
+    width:1000px;
+    margin:10px auto;
+    height:100vh;
+    position: relative;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+img#logo{
+    margin-bottom:40px;
+    width: 198px;
+    height: 67px;
+    position:absolute;
+    left:145px;
+    top:10px;
+}
+
+.nav>ul{
+    font-size:12px;
+    color: white;
+    display:flex;
+    gap:15PX;
+    list-style-type: none;
+    position:absolute;
+    left:800px;
+    top:15px;
+}
+.nav>ul>li>a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    opacity:0.5;
+}
+
+.text{
+    margin-top:100PX;
+    color: white;
+    display:inline-block;
+    position: absolute;
+    top:100px;
+    right:150px;
+}
+.text>a{
+    text-decoration:none;
+    padding:13px 48px;
+    background-color:white;
+    color:rgba(0, 0, 0, 0.877);
+    border-radius:20px 20px;
+    border:1px solid white;
+    font-size: small;
+}
+.text>a:hover{
+color: white;
+opacity:0.6;
+background-color: #af04323d;
+}
+
+img#header{
+    margin-top:100PX;
+    margin-left:20px;
+    width:397px;
+    height:408px;
+    position:absolute;
+    top:25px;
+    left:599px;
+}
+
+.nav{
+    position: fixed;
+    top:0;
+    right:0;
+    left: 0;
+    height:15%;
+    background-color: rgba(0, 0, 0, 0.397);
+    z-index:1;
+}
+
+
